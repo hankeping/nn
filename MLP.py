@@ -1,4 +1,5 @@
 #coding=utf-8
+'''多层感知机/双层神经网络'''
 from tensorflow.examples.tutorials.mnist import input_data
 import tensorflow as tf
 
@@ -53,7 +54,7 @@ with tf.name_scope('accuracy'):
     with tf.name_scope('correct_prediction'):
         correct_prediction=tf.equal(tf.argmax(y,1),tf.argmax(y_,1))
     with tf.name_scope('accuracy'):
-        accuracy=tf.reduce_mean(tf.cast(correct_prediction,tf.float32))
+        accuracy=tf.reduce_mean(tf.cast(correct_prediction,tf.float32)) #转成32位就可以将结果变成0 1序列，方便求平均（即准确率）
 tf.summary.scalar('accuracy',accuracy)
 
 merged=tf.summary.merge_all()
