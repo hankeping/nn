@@ -1,3 +1,4 @@
+#coding:utf8
 """Script to finetune AlexNet using Tensorflow.
 
 With this script you can finetune AlexNet as provided in the alexnet.py
@@ -10,6 +11,7 @@ https://kratzert.github.io/2017/02/24/finetuning-alexnet-with-tensorflow.html
 https://blog.csdn.net/two_vv/article/details/76769860
 Author: Frederik Kratzert
 contact: f.kratzert(at)gmail.com
+微调
 """
 
 import os

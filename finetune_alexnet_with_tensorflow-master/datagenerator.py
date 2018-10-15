@@ -1,5 +1,6 @@
+#coding:utf8
 # Created on Wed May 31 14:48:46 2017
-#
+#文件读取
 # @author: Frederik Kratzert
 
 """Containes a helper class for image input pipelines in tensorflow."""

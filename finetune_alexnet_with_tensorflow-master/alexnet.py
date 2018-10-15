@@ -1,3 +1,4 @@
+#coding:utf8
 """This is an TensorFLow implementation of AlexNet by Alex Krizhevsky at all.
 
 Paper:
